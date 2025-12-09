@@ -1,0 +1,31 @@
+{
+  "name": "@t1nder/ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T1NDER/ajs.git"
+  },
+  "author": "Tinder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T1NDER/ajs/issues"
+  },
+  "homepage": "https://github.com/T1NDER/ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
